@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "esbuild App.tsx --minify --bundle --watch --outfile=bundle.js",
+    "dev": "esbuild App.tsx --minify --bundle --watch --outfile=bundle.js && npx tailwindcss -i ./index.css -o ./output.css --watch",
     "build": "esbuild App.tsx --minify --bundle --outfile=bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
