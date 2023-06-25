@@ -1,0 +1,22 @@
+{
+  "name": "test_react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@tanstack/react-query": "^4.29.17",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "esbuild": "^0.18.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "esbuild App.tsx --minify --bundle --watch --outfile=bundle.js",
+    "build": "esbuild App.tsx --minify --bundle --outfile=bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
