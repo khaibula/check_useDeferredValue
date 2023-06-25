@@ -10,7 +10,7 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <StrictMode>
-        <Main/>
+        <Main />
       </StrictMode>
     </QueryClientProvider>
   )
